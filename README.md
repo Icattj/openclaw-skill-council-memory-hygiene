@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: Council Memory Hygiene
 description: Audit and clean OpenClaw memory files. Removes stale facts, contradicted entries, and outdated context from council_memory.json, MEMORY.md, and daily memory files. Use when memory has accumulated junk, agents are citing old numbers, or before a major project phase change. Run by Samael on Sunday cron.
@@ -62,3 +66,13 @@ Every Sunday 20:00 UTC, Samael runs:
 - Strategic decisions (permanent decision registry)
 - Client/bookkeeper names and contact info
 - Any entry tagged `[PERMANENT]`
+
+## Installation
+
+```bash
+cp -r council-memory-hygiene/ ~/.openclaw/workspace/skills/council-memory-hygiene/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
